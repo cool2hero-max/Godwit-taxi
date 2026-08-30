@@ -1,0 +1,35 @@
+CUSTOMER
+   │
+   ├── Register / Login
+   │
+   ├── Pickup + Destination
+   │
+   ▼
+BACKEND
+   │
+   ├── Calculate route/fare
+   ├── Find available drivers
+   ├── Send ride request
+   │
+   ▼
+DRIVER
+   │
+   ├── Accept
+   ├── Navigate to pickup
+   ├── Start journey
+   ├── Complete journey
+   │
+   ▼
+PAYMENT
+   │
+   ├── Customer payment
+   ├── Platform commission
+   └── Driver balance
+   │
+   ▼
+ADMIN
+   ├── Live rides
+   ├── Drivers
+   ├── Customers
+   ├── Payments
+   └── Reports
