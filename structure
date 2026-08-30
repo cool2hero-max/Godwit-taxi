@@ -1,0 +1,26 @@
+goswift-taxi/
+├── frontend/
+│   └── index.html
+├── server/
+│   ├── package.json
+│   ├── .env.example
+│   └── src/
+│       ├── server.js
+│       ├── db.js
+│       ├── middleware/
+│       │   └── auth.js
+│       ├── routes/
+│       │   ├── auth.js
+│       │   ├── customers.js
+│       │   ├── drivers.js
+│       │   ├── rides.js
+│       │   ├── payments.js
+│       │   └── admin.js
+│       └── services/
+│           ├── fare.js
+│           ├── matching.js
+│           └── notifications.js
+├── database/
+│   └── schema.sql
+├── README.md
+└── .gitignore
